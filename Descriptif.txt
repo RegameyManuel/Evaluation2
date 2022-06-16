@@ -1,0 +1,5 @@
+La relation SeComposeDe sous MCD devient une table dans le MPD qui prendra pour clef primaire une clef composée de l'ID N_Commande de la table Commande et l'id N_Article de la table Article.
+
+La relation Passe disparaît au profit de la création d'une clef étrangère dans la table Commande : N_Client.
+
+Les tables Article et Client ne subissent pas de transformation lors du passage du MCD au MPD.
